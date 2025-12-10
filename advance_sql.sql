@@ -1,3 +1,28 @@
+Show count of Active and Inactive employees.
+Show max salary in each department.
+Show min salary in each department.
+Show employees who joined on weekend (Saturday or Sunday).
+Show employees who joined in the first half of the year (Jan–Jun).
+Show employees who joined in the second half of the year (Jul–Dec).
+Show employees whose full name length is more than 10 characters.
+Show last 5 employees based on date of joining.
+Show employees whose designation contains the word “Manager”.
+Show number of employees whose salary > average salary.
+Show department with highest number of employees.
+Show department with lowest number of employees.
+Show employees whose names have exactly 5 characters.
+Show employees whose date_of_joining is a holiday (assume Sunday).
+Show all employees who joined in 2020 or earlier.
+Show employees with duplicate salary values.
+Show employees working in more than one department (if any).
+Show employees who joined on 1st date of any month.
+Show employees who joined in Q1 (Jan–Mar).
+Show employees who joined in Q2 (Apr–Jun).
+Show employees who joined in Q3 (Jul–Sep).
+Show employees who joined in Q4 (Oct–Dec).
+Show employees whose salary is above the department average salary.
+Show second highest salary from the table.
+Show employees who have not been assigned a phone number (NULL).
 select status, count(*) from employees group by status;
 select department, max(salary) from employees group by department;
 select department, min(salary) from employees group by department;
